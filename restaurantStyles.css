@@ -1,0 +1,70 @@
+<style>
+ /html{
+	  height: 100%
+  }
+  body {
+	  background-color: beige;
+		}
+	header,footer {
+		background-color:darkgreen;
+		color: white;
+		}
+   h1{
+	   font-family: 'Barriecito', cursive;
+   }
+   
+   .jumbotron{
+	   color: white;
+	   background-color: darkgreen;
+   }
+   
+   .carousel{
+		text-align: center;
+   
+   
+   
+   
+   
+   
+   
+   }
+   
+  
+   
+   nav a {
+	
+    background-color: #546a7b;
+    color: #fef9ff;
+    padding: 8px;
+    border: thin solid #0d1f2d;
+    text-decoration: none;
+    display: block;
+    margin: 10px 10px;
+    
+    
+}
+
+nav a:visited {
+    color: #e4c3ad; 
+}
+  nav a:hover {
+    background-color: #fef9ff;
+    color: #5b7d87; 
+	font-weight: bold;
+}
+
+
+
+   footer{
+	   text-align:center;
+   }
+   
+   
+   .clear-float {
+    clear:both;
+}
+   
+   
+   
+   
+	</style>

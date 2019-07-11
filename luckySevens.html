@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/JavaScript" src="luckySevens.js"></script>
+    
+</head>
+<body>
+<div class="container">
+    <h1>Lucky Sevens</h1>
+    <form name="numberFun" onsubmit="return validateItems();" 
+          >
+            <div class="form-group">
+                <label for="startBet">Starting Bet:</label>
+                <input type="number" class="form-control" id="startBet">
+            </div>
+           
+            <button type="submit" id="submitButton" class="btn btn-default">Submit</button>
+            
+    </form>
+    <table id="results" class="table table-striped" style="display:none;">
+        <thead>
+            <tr>
+                
+                <th>Results</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Starting Bet</td>
+                <td><span id="start"></span></td>
+            </tr>
+			<tr>
+                <td>Total Rolls Before Going Broke</td>
+                <td><span id="tRolls"></span></td>
+            </tr>
+			<tr>
+                <td>Highest Amount Won</td>
+                <td><span id="hWon"></span></td>
+            </tr>
+			<tr>
+                <td>Roll Count at Highest Won</td>
+                <td><span id="rollsAH"></span></td>
+            </tr>
+      
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
